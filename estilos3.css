@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(234, 234, 234);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+  margin: 5px;
+}
+nav ul li a{
+    transition:all ease 0.3s;
+    background-color:#dfdfdf;
+    border: solid 1px gray;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration:none;
+    color:black;
+}
+nav ul li a:hover{
+  background-color:black;
+  color:white;
+  padding:20px;
+     
+
+}
+.hero{
+    background-image: url(imagenes/fotos-galeria/back-banner.jpg);
+    background-size:cover;
+    background-position: center;
+    background-color: #9a9a9a;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.hero h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.hero h2{
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hero a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 10px;
+}
+.hero a:hover{
+    background-color: black;
+    color: white;
+}
